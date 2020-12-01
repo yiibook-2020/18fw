@@ -18,8 +18,6 @@
     </style>
 </head>
 <body>
-<div class="welcome">
-    <?php echo $message;?>
-</div>
+<?php include_once TPL_PATH . '/common/header.php';?>
 </body>
 </html>
